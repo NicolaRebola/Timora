@@ -19,6 +19,12 @@ repositories {
 	mavenCentral()
 }
 
+bootJar {
+    archiveBaseName = 'timora'
+    archiveVersion = '0.1.0'
+    mainClassName = 'com.nicola-rebola.TimoraApplication' // Ajusta esto si tu clase principal tiene otro nombre
+}
+
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'org.springframework.boot:spring-boot-starter-security'
