@@ -22,7 +22,7 @@ repositories {
 bootJar {
     archiveBaseName = 'timora'
     archiveVersion = '0.1.0'
-    mainClassName = 'com.nicola-rebola.TimoraApplication' // Ajusta esto si tu clase principal tiene otro nombre
+   	mainClass.set('com.nicola-rebola.TimoraApplication')
 }
 
 dependencies {
